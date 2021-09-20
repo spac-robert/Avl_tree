@@ -69,7 +69,7 @@ public class Avl {
             int balanced = getBalanced(parent);
 
             if (balanced > 1) {
-                if(key > parent.getKey()){
+                if (key > parent.getKey()) {
 
                 }
                 parent = rotateRight(parent);
